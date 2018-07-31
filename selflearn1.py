@@ -76,6 +76,7 @@ print(dict([('Runoob', 1), ('Google', 2), ('Taobao', 3)])) #{'Runoob': 1, 'Googl
 print({x: x**2 for x in (2, 4, 6)}) #{2: 4, 4: 16, 6: 36}
 print(dict(Runoob=1, Google=2, Taobao=3)) #{'Runoob': 1, 'Google': 2, 'Taobao': 3}
 """
+###########################################################
 
 #trial 6
 a= """i am a multi
