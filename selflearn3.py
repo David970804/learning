@@ -1,0 +1,1 @@
+#Trial 1 delete variables

@@ -53,7 +53,7 @@ else:
 #####################################
 
 """
-#trial 3 member operator
+#trial 3 member operator成员运算符
 a = 10
 b = 20
 list = [1, 2, 3, 4, 5 ];
@@ -72,4 +72,31 @@ else:
 #####################################
 
 
-#trial 3 identity operator
+#trial 3 identity operator 身份运算符 is / is not 
+#if (x is y ) 等同于 if(id(x)==id(y))
+
+a = 20
+b = 20
+if ( a is b ):
+   print ("1 - a 和 b 有相同的标识")
+else:
+   print ("1 - a 和 b 没有相同的标识")
+ #1 - a 和 b 有相同的标识
+if ( id(a) == id(b) ):
+   print ("2 - a 和 b 有相同的标识")
+else:
+   print ("2 - a 和 b 没有相同的标识")
+ #2 - a 和 b 有相同的标识
+
+# 修改变量 b 的值
+b = 30
+if ( a is b ):
+   print ("3 - a 和 b 有相同的标识")
+else:
+   print ("3 - a 和 b 没有相同的标识")
+ #3 - a 和 b 没有相同的标识
+if ( a is not b ):
+   print ("4 - a 和 b 没有相同的标识")
+else:
+   print ("4 - a 和 b 有相同的标识")
+ #4 - a 和 b 没有相同的标识
